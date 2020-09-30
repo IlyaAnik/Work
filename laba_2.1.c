@@ -8,9 +8,11 @@ void main()
      scanf("%d",&b);
      printf("Введите переменную c:");
      scanf("%d",&c);
-     if (a<b && a<c) printf("Yes");
-     else if(a>b && a>c) printf("No");
-
+     if (a<b && a<c) { 
+         printf("Yes");
+     } else {
+         printf("No");
+     }
     
 
 }
