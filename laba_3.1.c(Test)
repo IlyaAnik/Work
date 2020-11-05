@@ -8,9 +8,9 @@ void main()
     printf("Введите m рублей\n");
     scanf("%d",&m);
 
-    for ( a=0; a=10; a++)
-    for ( b=0; b=10-a; b++)
-    for ( c=0; c=10-a-b; c++)
+    for ( a=0; a<=10; a++)
+    for ( b=0; b<=10-a; b++)
+    for ( c=0; c<=10-a-b; c++)
     if (10<m<50 && a+3*b+5*c==m && a+b+c==10) { 
          printf("Yes");
      } else {
